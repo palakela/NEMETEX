@@ -101,7 +101,7 @@ result.groupby(['taxonomy', 'behaviour']).mean()
 
 Since the compound names in the smetana output are reported as “bigg_IDs” (or gapseq IDs)and not as extended names, we provide two conversion files created by downloading the conversion file from either [bigg site](http://bigg.ucsd.edu/universal/metabolites) or [gapseq site](https://modelseed.org/biochem/compounds) and cleaning it for both NaN values and duplicates.
 
-In case you would like to update **[bigg_compounds_conversion_table_CORRECT](bigg_compounds_conversion_table_CORRECT.txt)** file, here we report the code which can be used to create this kind of file (notice that internet connection is required):
+In case you would like to update **[bigg compounds conversion table](bigg_compounds_conversion_table_CORRECT.txt)** file, here we report the code which can be used to create this kind of file (notice that internet connection is required):
 
 ```python
 import requests
@@ -176,4 +176,4 @@ As first try, you can launch the code below from the command line while you are 
 python NEMETEX.py -s ToyData/smetana_output.tsv -a ToyData/MAGs_coverage.txt -t ToyData/gtdb_ncbi_taxonomy.txt -C ToyData/compounds.txt -p ToyData
 ```
 
-You can find the folder containing all output data named as **ToyData_outputs**. Notice that you can also analyse different coumpounds which are exchanged within the example community by changing [compounds](ToyData/compounds.txt) file.
+You can find the folder containing all output data named as **ToyData_outputs**. Notice that you can also analyse different coumpounds which are exchanged within the example community by changing the [compounds](ToyData/compounds.txt) file.

@@ -1,0 +1,34 @@
+	community	medium	receiver	donor	compound	scs	mus	mps	smetana
+90	community1004	minimal	Firmicutes_sp_DTU-UNIPD974	Ca_Caldatribacterium_sp_DTU-UNIPD941	M_pyr_e	1.0	0.04	1	0.04
+2280	community1241	minimal	Clostridia_sp_DTU-UNIPD924	Bacteroidales_sp_DTU-UNIPD922	M_pyr_e	1.0	0.01	1	0.01
+3133	community1339	minimal	Ca. Dethiobacteraceae_sp_DTU-UNIPD931	Ca_Caldatribacterium_sp_DTU-UNIPD941	M_pyr_e	1.0	0.03	1	0.03
+3279	community1352	minimal	Ca. Dethiobacteraceae_sp_DTU-UNIPD931	Cloacibacillus_sp_DTU-UNIPD942	M_pyr_e	1.0	0.02	1	0.02
+3301	community1354	minimal	Ca. Dethiobacteraceae_sp_DTU-UNIPD931	Acholeplasmatales_sp_DTU-UNIPD950	M_pyr_e	1.0	0.03	1	0.03
+3413	community1363	minimal	Ca. Dethiobacteraceae_sp_DTU-UNIPD931	Bacteroidales_sp_DTU-UNIPD922	M_pyr_e	1.0	0.02	1	0.02
+4737	community1482	minimal	Ca_Caldatribacterium_sp_DTU-UNIPD941	Cloacibacillus_sp_DTU-UNIPD942	M_pyr_e	1.0	0.02	1	0.02
+4755	community1484	minimal	Ca_Caldatribacterium_sp_DTU-UNIPD941	Acholeplasmatales_sp_DTU-UNIPD950	M_pyr_e	1.0	0.01	1	0.01
+4833	community1493	minimal	Ca_Caldatribacterium_sp_DTU-UNIPD941	Bacteroidales_sp_DTU-UNIPD922	M_pyr_e	1.0	0.01	1	0.01
+6996	community1705	minimal	Cloacibacillus_sp_DTU-UNIPD942	Acholeplasmatales_sp_DTU-UNIPD950	M_pyr_e	1.0	0.01	1	0.01
+7079	community1714	minimal	Cloacibacillus_sp_DTU-UNIPD942	Bacteroidales_sp_DTU-UNIPD922	M_pyr_e	1.0	0.06	1	0.06
+7245	community1733	minimal	Bacteroidales_sp_DTU-UNIPD922	Acholeplasmatales_sp_DTU-UNIPD950	M_pyr_e	1.0	0.01	1	0.01
+9376	community343	minimal	Azonexus_sp_DTU-UNIPD953	Bacillus_sp_DTU-UNIPD918	M_pyr_e	1.0	0.03	1	0.03
+9539	community358	minimal	Azonexus_sp_DTU-UNIPD953	Clostridia_sp_DTU-UNIPD924	M_pyr_e	1.0	0.01	1	0.01
+9584	community362	minimal	Azonexus_sp_DTU-UNIPD953	Ca. Dethiobacteraceae_sp_DTU-UNIPD931	M_pyr_e	1.0	0.03	1	0.03
+9802	community380	minimal	Azonexus_sp_DTU-UNIPD953	Cloacibacillus_sp_DTU-UNIPD942	M_pyr_e	1.0	0.01	1	0.01
+9907	community391	minimal	Azonexus_sp_DTU-UNIPD953	Bacteroidales_sp_DTU-UNIPD922	M_pyr_e	1.0	0.04	1	0.04
+11344	community545	minimal	Pseudorhodobacter_sp_DTU-UNIPD967	Bacillus_sp_DTU-UNIPD918	M_pyr_e	1.0	0.03	1	0.03
+11427	community550	minimal	Pseudorhodobacter_sp_DTU-UNIPD967	Clostridiales_sp_DTU-UNIPD956	M_pyr_e	1.0	0.1	1	0.1
+11474	community554	minimal	Pseudorhodobacter_sp_DTU-UNIPD967	Firmicutes_sp_DTU-UNIPD974	M_pyr_e	1.0	0.49	1	0.49
+11554	community560	minimal	Pseudorhodobacter_sp_DTU-UNIPD967	Clostridia_sp_DTU-UNIPD924	M_pyr_e	1.0	0.19	1	0.19
+11598	community564	minimal	Pseudorhodobacter_sp_DTU-UNIPD967	Ca. Dethiobacteraceae_sp_DTU-UNIPD931	M_pyr_e	1.0	0.23	1	0.23
+11662	community569	minimal	Pseudorhodobacter_sp_DTU-UNIPD967	Ca_Caldatribacterium_sp_DTU-UNIPD941	M_pyr_e	1.0	0.25	1	0.25
+11824	community582	minimal	Pseudorhodobacter_sp_DTU-UNIPD967	Cloacibacillus_sp_DTU-UNIPD942	M_pyr_e	1.0	0.02	1	0.02
+11850	community584	minimal	Pseudorhodobacter_sp_DTU-UNIPD967	Acholeplasmatales_sp_DTU-UNIPD950	M_pyr_e	1.0	0.3	1	0.3
+11955	community593	minimal	Pseudorhodobacter_sp_DTU-UNIPD967	Bacteroidales_sp_DTU-UNIPD922	M_pyr_e	1.0	0.02	1	0.02
+12007	community598	minimal	Bacillus_sp_DTU-UNIPD918	Clostridiales_sp_DTU-UNIPD956	M_pyr_e	1.0	0.01	1	0.01
+12053	community602	minimal	Bacillus_sp_DTU-UNIPD918	Firmicutes_sp_DTU-UNIPD974	M_pyr_e	1.0	0.02	1	0.02
+12178	community612	minimal	Bacillus_sp_DTU-UNIPD918	Ca. Dethiobacteraceae_sp_DTU-UNIPD931	M_pyr_e	1.0	0.01	1	0.01
+12523	community641	minimal	Bacillus_sp_DTU-UNIPD918	Bacteroidales_sp_DTU-UNIPD922	M_pyr_e	1.0	0.02	1	0.02
+14640	community827	minimal	Clostridiales_sp_DTU-UNIPD956	Firmicutes_sp_DTU-UNIPD974	M_pyr_e	1.0	0.01	1	0.01
+14743	community837	minimal	Clostridiales_sp_DTU-UNIPD956	Ca. Dethiobacteraceae_sp_DTU-UNIPD931	M_pyr_e	1.0	0.01	1	0.01
+15043	community866	minimal	Clostridiales_sp_DTU-UNIPD956	Bacteroidales_sp_DTU-UNIPD922	M_pyr_e	1.0	0.68	1	0.68

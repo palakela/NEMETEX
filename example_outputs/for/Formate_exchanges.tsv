@@ -1,0 +1,47 @@
+	community	medium	receiver	donor	compound	scs	mus	mps	smetana
+82	community1004	minimal	Firmicutes_sp_DTU-UNIPD974	Ca_Caldatribacterium_sp_DTU-UNIPD941	M_for_e	1.0	0.06	1	0.06
+725	community1075	minimal	Syntrophothermus_sp_DTU-UNIPD934	Ca_Dethiobacteraceae_sp_DTU-UNIPD976	M_for_e	1.0	1.0	1	1.0
+767	community1079	minimal	Ca_Caldatribacterium_sp_DTU-UNIPD941	Ca_Dethiobacteraceae_sp_DTU-UNIPD976	M_for_e	1.0	0.5	1	0.5
+811	community1083	minimal	Ca_Dethiobacteraceae_sp_DTU-UNIPD976	Firmicutes_sp_DTU-UNIPD954	M_for_e	1.0	0.05	1	0.05
+1785	community1184	minimal	Firmicutes_sp_DTU-UNIPD923	Ca_Caldatribacterium_sp_DTU-UNIPD941	M_for_e	1.0	0.14	1	0.14
+1818	community1188	minimal	Firmicutes_sp_DTU-UNIPD923	Firmicutes_sp_DTU-UNIPD954	M_for_e	1.0	0.79	1	0.79
+1975	community1204	minimal	Firmicutes_sp_DTU-UNIPD923	Ruminococcaceae_sp_DTU-UNIPD968	M_for_e	1.0	0.24	1	0.24
+2013	community1208	minimal	Firmicutes_sp_DTU-UNIPD923	Bacteroidales_sp_DTU-UNIPD922	M_for_e	1.0	0.37	1	0.37
+2020	community121	minimal	Aminobacterium_colombiense_DTU-UNIPD933	Sphaerochaeta_sp_DTU-UNIPD955	M_for_e	1.0	0.14	1	0.14
+2276	community1241	minimal	Clostridia_sp_DTU-UNIPD924	Bacteroidales_sp_DTU-UNIPD922	M_for_e	1.0	0.1	1	0.1
+3126	community1339	minimal	Ca. Dethiobacteraceae_sp_DTU-UNIPD931	Ca_Caldatribacterium_sp_DTU-UNIPD941	M_for_e	1.0	0.03	1	0.03
+3174	community1343	minimal	Ca. Dethiobacteraceae_sp_DTU-UNIPD931	Firmicutes_sp_DTU-UNIPD954	M_for_e	1.0	0.03	1	0.03
+3408	community1363	minimal	Ca. Dethiobacteraceae_sp_DTU-UNIPD931	Bacteroidales_sp_DTU-UNIPD922	M_for_e	1.0	0.03	1	0.03
+3459	community1367	minimal	Syntrophothermus_sp_DTU-UNIPD934	Ca_Caldatribacterium_sp_DTU-UNIPD941	M_for_e	1.0	0.26	1	0.26
+3511	community1371	minimal	Syntrophothermus_sp_DTU-UNIPD934	Firmicutes_sp_DTU-UNIPD954	M_for_e	1.0	0.05	1	0.05
+3683	community1387	minimal	Syntrophothermus_sp_DTU-UNIPD934	Ruminococcaceae_sp_DTU-UNIPD968	M_for_e	1.0	0.05	1	0.05
+4796	community1489	minimal	Ca_Caldatribacterium_sp_DTU-UNIPD941	Ruminococcaceae_sp_DTU-UNIPD968	M_for_e	1.0	0.04	1	0.04
+4825	community1493	minimal	Ca_Caldatribacterium_sp_DTU-UNIPD941	Bacteroidales_sp_DTU-UNIPD922	M_for_e	1.0	0.03	1	0.03
+5680	community1579	minimal	Firmicutes_sp_DTU-UNIPD954	Bacteroidales_sp_DTU-UNIPD922	M_for_e	1.0	0.1	1	0.1
+5801	community1594	minimal	Firmicutes_sp_DTU-UNIPD959	Ruminococcaceae_sp_DTU-UNIPD968	M_for_e	1.0	0.03	1	0.03
+5841	community1598	minimal	Firmicutes_sp_DTU-UNIPD959	Bacteroidales_sp_DTU-UNIPD922	M_for_e	1.0	0.06	1	0.06
+6645	community1674	minimal	Methanoculleus_thermophilus_DTU-UNIPD927	Ruminococcaceae_sp_DTU-UNIPD968	M_for_e	1.0	0.01	1	0.01
+7199	community173	minimal	Aminobacterium_colombiense_DTU-UNIPD933	Bacteroidales_sp_DTU-UNIPD922	M_for_e	1.0	0.07	1	0.07
+8767	community284	minimal	Alcaligenaceae_sp_DTU-UNIPD943	Bacteroidales_sp_DTU-UNIPD922	M_for_e	1.0	0.01	1	0.01
+9632	community367	minimal	Azonexus_sp_DTU-UNIPD953	Ca_Caldatribacterium_sp_DTU-UNIPD941	M_for_e	1.0	0.01	1	0.01
+9688	community371	minimal	Azonexus_sp_DTU-UNIPD953	Firmicutes_sp_DTU-UNIPD954	M_for_e	1.0	0.01	1	0.01
+10074	community406	minimal	Sphaerochaeta_sp_DTU-UNIPD955	Ca_Dethiobacteraceae_sp_DTU-UNIPD976	M_for_e	1.0	0.01	1	0.01
+10212	community419	minimal	Sphaerochaeta_sp_DTU-UNIPD955	Ca_Caldatribacterium_sp_DTU-UNIPD941	M_for_e	1.0	0.04	1	0.04
+10262	community423	minimal	Sphaerochaeta_sp_DTU-UNIPD955	Firmicutes_sp_DTU-UNIPD954	M_for_e	1.0	0.02	1	0.02
+10425	community439	minimal	Sphaerochaeta_sp_DTU-UNIPD955	Ruminococcaceae_sp_DTU-UNIPD968	M_for_e	1.0	0.06	1	0.06
+10473	community443	minimal	Sphaerochaeta_sp_DTU-UNIPD955	Bacteroidales_sp_DTU-UNIPD922	M_for_e	1.0	0.06	1	0.06
+10573	community454	minimal	Fermentimonas_massiliensis_DTU-UNIPD960	Aeromicrobium_sp_DTU-UNIPD973	M_for_e	1.0	0.1	1	0.1
+10595	community457	minimal	Fermentimonas_massiliensis_DTU-UNIPD960	Ca_Dethiobacteraceae_sp_DTU-UNIPD976	M_for_e	1.0	0.04	1	0.04
+10622	community460	minimal	Firmicutes_sp_DTU-UNIPD923	Fermentimonas_massiliensis_DTU-UNIPD960	M_for_e	1.0	1.0	1	1.0
+10634	community461	minimal	Clostridia_sp_DTU-UNIPD924	Fermentimonas_massiliensis_DTU-UNIPD960	M_for_e	1.0	1.0	1	1.0
+10674	community466	minimal	Syntrophothermus_sp_DTU-UNIPD934	Fermentimonas_massiliensis_DTU-UNIPD960	M_for_e	1.0	1.0	1	1.0
+10732	community474	minimal	Fermentimonas_massiliensis_DTU-UNIPD960	Firmicutes_sp_DTU-UNIPD954	M_for_e	1.0	0.07	1	0.07
+10786	community480	minimal	Methanoculleus_thermophilus_DTU-UNIPD927	Fermentimonas_massiliensis_DTU-UNIPD960	M_for_e	1.0	0.5	1	0.5
+12268	community621	minimal	Bacillus_sp_DTU-UNIPD918	Firmicutes_sp_DTU-UNIPD954	M_for_e	1.0	0.02	1	0.02
+12517	community641	minimal	Bacillus_sp_DTU-UNIPD918	Bacteroidales_sp_DTU-UNIPD922	M_for_e	1.0	0.01	1	0.01
+13731	community734	minimal	Catabacter_sp_DTU-UNIPD932	Bacteroidales_sp_DTU-UNIPD922	M_for_e	1.0	0.03	1	0.03
+15055	community868	minimal	Firmicutes_sp_DTU-UNIPD966	Aeromicrobium_sp_DTU-UNIPD973	M_for_e	1.0	0.21	1	0.21
+15191	community884	minimal	Firmicutes_sp_DTU-UNIPD966	Ca_Caldatribacterium_sp_DTU-UNIPD941	M_for_e	1.0	0.24	1	0.24
+15838	community955	minimal	Firmicutes_sp_DTU-UNIPD923	Aeromicrobium_sp_DTU-UNIPD973	M_for_e	1.0	1.0	1	1.0
+15924	community969	minimal	Firmicutes_sp_DTU-UNIPD954	Aeromicrobium_sp_DTU-UNIPD973	M_for_e	1.0	0.14	1	0.14
+15965	community975	minimal	Methanoculleus_thermophilus_DTU-UNIPD927	Aeromicrobium_sp_DTU-UNIPD973	M_for_e	1.0	1.0	1	1.0

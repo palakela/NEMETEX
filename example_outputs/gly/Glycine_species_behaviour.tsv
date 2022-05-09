@@ -1,0 +1,16 @@
+Species	abundance	taxonomy	gives to	average probability of donation	receives from	average probability to receive	behaviour
+Acetomicrobium_sp_DTU-UNIPD972	9.13378503561375	Synergistetes	6.0	0.24444444444444446	0.0	0.0	mainly donor
+Ca_Thermacetogeniaceae_sp_DTU-UNIPD947	1.5810804061331252	Firmicutes	7.0	0.3187012987012987	3.0	0.03333333333333333	mainly donor
+Firmicutes_sp_DTU-UNIPD938	1.5291936854062498	Firmicutes	10.0	0.219	1.0	0.05	mainly donor
+Synergistetes_sp_DTU-UNIPD919	0.7643460187483749	Synergistetes	2.0	0.52	8.0	0.12208333333333335	mainly donor
+Cloacibacillus_sp_DTU-UNIPD942	0.6626799321140001	Synergistetes	8.0	0.17625000000000002	1.0	0.5	mainly receiver
+Clostridia_sp_DTU-UNIPD970	0.4048198369388751	Firmicutes	7.0	0.3	0.0	0.0	mainly donor
+Bacillus_sp_DTU-UNIPD958	0.3547254221594749	Firmicutes	0.0	0.0	1.0	0.5	mainly receiver
+Aminobacterium_colombiense_DTU-UNIPD933	0.33312027632725	Synergistetes	2.0	0.5700000000000001	7.0	0.14142857142857143	mainly donor
+Alcaligenaceae_sp_DTU-UNIPD943	0.30262189290029995	Proteobacteria	0.0	0.0	5.0	0.076	mainly receiver
+Firmicutes_sp_DTU-UNIPD945	0.302563552390625	Firmicutes	3.0	0.3433333333333333	4.0	0.0625	mainly donor
+Ca_Anaerovoracaceae_sp_DTU-UNIPD937	0.2919228396975	Firmicutes	6.0	0.17833333333333334	3.0	0.023333333333333334	mainly donor
+Bacteroidales_sp_DTU-UNIPD936	0.2751065156282	Bacteroidetes	2.0	0.5833333333333333	6.0	0.21833333333333335	mainly donor
+Pseudorhodobacter_sp_DTU-UNIPD967	0.22107669847825	Proteobacteria	0.0	0.0	3.0	0.05000000000000001	mainly receiver
+Syntrophomonas_sp_DTU-UNIPD935	0.21469693578112498	Firmicutes	1.0	0.02	9.0	0.9344444444444444	mainly receiver
+Clostridiales_sp_DTU-UNIPD939	0.1611282212718375	Firmicutes	4.0	0.325	7.0	0.35393939393939394	mainly receiver

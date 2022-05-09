@@ -1,0 +1,7 @@
+Species	abundance	taxonomy	gives to	average probability of donation	receives from	average probability to receive	behaviour
+Clostridiales_sp_DTU-UNIPD956	0.853263566140125	Firmicutes	1.0	1.0	1.0	0.04	mainly donor
+Ca. Dethiobacteraceae_sp_DTU-UNIPD931	0.5203537084561249	Firmicutes	2.0	0.025	0.0	0.0	mainly donor
+Aminobacterium_colombiense_DTU-UNIPD933	0.33312027632725	Synergistetes	0.0	0.0	1.0	1.0	mainly receiver
+Petrimonas_sp_DTU-UNIPD925	0.27195226747641255	Bacteroidetes	0.0	0.0	1.0	1.0	mainly receiver
+Clostridia_sp_DTU-UNIPD924	0.267677944587925	Firmicutes	0.0	0.0	1.0	0.01	mainly receiver
+Burkholderiales_sp_DTU-UNIPD944	0.1807903717197625	Proteobacteria	1.0	1.0	0.0	0.0	mainly donor

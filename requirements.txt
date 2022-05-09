@@ -1,0 +1,7 @@
+Python v3.x
+Numpy v1.15.1
+Pandas v0.23.4
+NetworkX v2.1
+PyVis v0.1.9
+os
+argparse v2.0.1

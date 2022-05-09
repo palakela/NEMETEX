@@ -1,0 +1,80 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+<center>
+<h1>Exchanges of Pyruvate</h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 100%;
+            height: 100%;
+            background-color: #ffffff;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"group": "Candidatus Atribacteria", "id": "Ca_Caldatribacterium_sp_DTU-UNIPD941", "label": "Ca_Caldatribacterium_sp_DTU-UNIPD941", "shape": "dot", "size": 58, "title": "Gives to:\u003cbr\u003eFirmicutes_sp_DTU-UNIPD974\u003cbr\u003ePseudorhodobacter_sp_DTU-UNIPD967\u003cbr\u003eCa. Dethiobacteraceae_sp_DTU-UNIPD931\u003cbr\u003e\u003cbr\u003eAbundance: 0.58%\u003cbr\u003e\u003cbr\u003ePhylum: Candidatus Atribacteria"}, {"group": "Firmicutes", "id": "Firmicutes_sp_DTU-UNIPD974", "label": "Firmicutes_sp_DTU-UNIPD974", "shape": "dot", "size": 734, "title": "Gives to:\u003cbr\u003eBacillus_sp_DTU-UNIPD918\u003cbr\u003eClostridiales_sp_DTU-UNIPD956\u003cbr\u003ePseudorhodobacter_sp_DTU-UNIPD967\u003cbr\u003e\u003cbr\u003eAbundance: 7.34%\u003cbr\u003e\u003cbr\u003ePhylum: Firmicutes"}, {"group": "Firmicutes", "id": "Ca. Dethiobacteraceae_sp_DTU-UNIPD931", "label": "Ca. Dethiobacteraceae_sp_DTU-UNIPD931", "shape": "dot", "size": 52, "title": "Gives to:\u003cbr\u003ePseudorhodobacter_sp_DTU-UNIPD967\u003cbr\u003eClostridiales_sp_DTU-UNIPD956\u003cbr\u003eAzonexus_sp_DTU-UNIPD953\u003cbr\u003eBacillus_sp_DTU-UNIPD918\u003cbr\u003e\u003cbr\u003eAbundance: 0.52%\u003cbr\u003e\u003cbr\u003ePhylum: Firmicutes"}, {"group": "Proteobacteria", "id": "Pseudorhodobacter_sp_DTU-UNIPD967", "label": "Pseudorhodobacter_sp_DTU-UNIPD967", "shape": "dot", "size": 22, "title": "Gives to:\u003cbr\u003e\u003cbr\u003e\u003cbr\u003eAbundance: 0.22%\u003cbr\u003e\u003cbr\u003ePhylum: Proteobacteria"}, {"group": "Firmicutes", "id": "Bacillus_sp_DTU-UNIPD918", "label": "Bacillus_sp_DTU-UNIPD918", "shape": "dot", "size": 147, "title": "Gives to:\u003cbr\u003ePseudorhodobacter_sp_DTU-UNIPD967\u003cbr\u003eAzonexus_sp_DTU-UNIPD953\u003cbr\u003e\u003cbr\u003eAbundance: 1.47%\u003cbr\u003e\u003cbr\u003ePhylum: Firmicutes"}, {"group": "Firmicutes", "id": "Clostridiales_sp_DTU-UNIPD956", "label": "Clostridiales_sp_DTU-UNIPD956", "shape": "dot", "size": 85, "title": "Gives to:\u003cbr\u003eBacillus_sp_DTU-UNIPD918\u003cbr\u003ePseudorhodobacter_sp_DTU-UNIPD967\u003cbr\u003e\u003cbr\u003eAbundance: 0.85%\u003cbr\u003e\u003cbr\u003ePhylum: Firmicutes"}, {"group": "Bacteroidetes", "id": "Bacteroidales_sp_DTU-UNIPD922", "label": "Bacteroidales_sp_DTU-UNIPD922", "shape": "dot", "size": 138, "title": "Gives to:\u003cbr\u003eCa_Caldatribacterium_sp_DTU-UNIPD941\u003cbr\u003ePseudorhodobacter_sp_DTU-UNIPD967\u003cbr\u003eBacillus_sp_DTU-UNIPD918\u003cbr\u003eClostridia_sp_DTU-UNIPD924\u003cbr\u003eClostridiales_sp_DTU-UNIPD956\u003cbr\u003eCa. Dethiobacteraceae_sp_DTU-UNIPD931\u003cbr\u003eCloacibacillus_sp_DTU-UNIPD942\u003cbr\u003eAzonexus_sp_DTU-UNIPD953\u003cbr\u003e\u003cbr\u003eAbundance: 1.38%\u003cbr\u003e\u003cbr\u003ePhylum: Bacteroidetes"}, {"group": "Firmicutes", "id": "Clostridia_sp_DTU-UNIPD924", "label": "Clostridia_sp_DTU-UNIPD924", "shape": "dot", "size": 26, "title": "Gives to:\u003cbr\u003ePseudorhodobacter_sp_DTU-UNIPD967\u003cbr\u003eAzonexus_sp_DTU-UNIPD953\u003cbr\u003e\u003cbr\u003eAbundance: 0.26%\u003cbr\u003e\u003cbr\u003ePhylum: Firmicutes"}, {"group": "Synergistetes", "id": "Cloacibacillus_sp_DTU-UNIPD942", "label": "Cloacibacillus_sp_DTU-UNIPD942", "shape": "dot", "size": 66, "title": "Gives to:\u003cbr\u003eCa_Caldatribacterium_sp_DTU-UNIPD941\u003cbr\u003ePseudorhodobacter_sp_DTU-UNIPD967\u003cbr\u003eCa. Dethiobacteraceae_sp_DTU-UNIPD931\u003cbr\u003eAzonexus_sp_DTU-UNIPD953\u003cbr\u003e\u003cbr\u003eAbundance: 0.66%\u003cbr\u003e\u003cbr\u003ePhylum: Synergistetes"}, {"group": "Proteobacteria", "id": "Azonexus_sp_DTU-UNIPD953", "label": "Azonexus_sp_DTU-UNIPD953", "shape": "dot", "size": 48, "title": "Gives to:\u003cbr\u003e\u003cbr\u003e\u003cbr\u003eAbundance: 0.48%\u003cbr\u003e\u003cbr\u003ePhylum: Proteobacteria"}, {"group": "Tenericutes", "id": "Acholeplasmatales_sp_DTU-UNIPD950", "label": "Acholeplasmatales_sp_DTU-UNIPD950", "shape": "dot", "size": 28, "title": "Gives to:\u003cbr\u003eCa_Caldatribacterium_sp_DTU-UNIPD941\u003cbr\u003ePseudorhodobacter_sp_DTU-UNIPD967\u003cbr\u003eBacteroidales_sp_DTU-UNIPD922\u003cbr\u003eCa. Dethiobacteraceae_sp_DTU-UNIPD931\u003cbr\u003eCloacibacillus_sp_DTU-UNIPD942\u003cbr\u003e\u003cbr\u003eAbundance: 0.28%\u003cbr\u003e\u003cbr\u003ePhylum: Tenericutes"}]);
+        edges = new vis.DataSet([{"arrows": "to", "from": "Ca_Caldatribacterium_sp_DTU-UNIPD941", "title": "exchange probability (smetana value): 0.04", "to": "Firmicutes_sp_DTU-UNIPD974", "value": 0.04, "weight": 1}, {"arrows": "to", "from": "Ca_Caldatribacterium_sp_DTU-UNIPD941", "title": "exchange probability (smetana value): 0.03", "to": "Ca. Dethiobacteraceae_sp_DTU-UNIPD931", "value": 0.03, "weight": 1}, {"arrows": "to", "from": "Ca_Caldatribacterium_sp_DTU-UNIPD941", "title": "exchange probability (smetana value): 0.25", "to": "Pseudorhodobacter_sp_DTU-UNIPD967", "value": 0.25, "weight": 1}, {"arrows": "to", "from": "Firmicutes_sp_DTU-UNIPD974", "title": "exchange probability (smetana value): 0.49", "to": "Pseudorhodobacter_sp_DTU-UNIPD967", "value": 0.49, "weight": 1}, {"arrows": "to", "from": "Firmicutes_sp_DTU-UNIPD974", "title": "exchange probability (smetana value): 0.02", "to": "Bacillus_sp_DTU-UNIPD918", "value": 0.02, "weight": 1}, {"arrows": "to", "from": "Firmicutes_sp_DTU-UNIPD974", "title": "exchange probability (smetana value): 0.01", "to": "Clostridiales_sp_DTU-UNIPD956", "value": 0.01, "weight": 1}, {"arrows": "to", "from": "Bacteroidales_sp_DTU-UNIPD922", "title": "exchange probability (smetana value): 0.01", "to": "Clostridia_sp_DTU-UNIPD924", "value": 0.01, "weight": 1}, {"arrows": "to", "from": "Bacteroidales_sp_DTU-UNIPD922", "title": "exchange probability (smetana value): 0.02", "to": "Ca. Dethiobacteraceae_sp_DTU-UNIPD931", "value": 0.02, "weight": 1}, {"arrows": "to", "from": "Bacteroidales_sp_DTU-UNIPD922", "title": "exchange probability (smetana value): 0.01", "to": "Ca_Caldatribacterium_sp_DTU-UNIPD941", "value": 0.01, "weight": 1}, {"arrows": "to", "from": "Bacteroidales_sp_DTU-UNIPD922", "title": "exchange probability (smetana value): 0.06", "to": "Cloacibacillus_sp_DTU-UNIPD942", "value": 0.06, "weight": 1}, {"arrows": "to", "from": "Bacteroidales_sp_DTU-UNIPD922", "title": "exchange probability (smetana value): 0.04", "to": "Azonexus_sp_DTU-UNIPD953", "value": 0.04, "weight": 1}, {"arrows": "to", "from": "Bacteroidales_sp_DTU-UNIPD922", "title": "exchange probability (smetana value): 0.02", "to": "Pseudorhodobacter_sp_DTU-UNIPD967", "value": 0.02, "weight": 1}, {"arrows": "to", "from": "Bacteroidales_sp_DTU-UNIPD922", "title": "exchange probability (smetana value): 0.02", "to": "Bacillus_sp_DTU-UNIPD918", "value": 0.02, "weight": 1}, {"arrows": "to", "from": "Bacteroidales_sp_DTU-UNIPD922", "title": "exchange probability (smetana value): 0.68", "to": "Clostridiales_sp_DTU-UNIPD956", "value": 0.68, "weight": 1}, {"arrows": "to", "from": "Clostridia_sp_DTU-UNIPD924", "title": "exchange probability (smetana value): 0.01", "to": "Azonexus_sp_DTU-UNIPD953", "value": 0.01, "weight": 1}, {"arrows": "to", "from": "Clostridia_sp_DTU-UNIPD924", "title": "exchange probability (smetana value): 0.19", "to": "Pseudorhodobacter_sp_DTU-UNIPD967", "value": 0.19, "weight": 1}, {"arrows": "to", "from": "Ca. Dethiobacteraceae_sp_DTU-UNIPD931", "title": "exchange probability (smetana value): 0.03", "to": "Azonexus_sp_DTU-UNIPD953", "value": 0.03, "weight": 1}, {"arrows": "to", "from": "Ca. Dethiobacteraceae_sp_DTU-UNIPD931", "title": "exchange probability (smetana value): 0.23", "to": "Pseudorhodobacter_sp_DTU-UNIPD967", "value": 0.23, "weight": 1}, {"arrows": "to", "from": "Ca. Dethiobacteraceae_sp_DTU-UNIPD931", "title": "exchange probability (smetana value): 0.01", "to": "Bacillus_sp_DTU-UNIPD918", "value": 0.01, "weight": 1}, {"arrows": "to", "from": "Ca. Dethiobacteraceae_sp_DTU-UNIPD931", "title": "exchange probability (smetana value): 0.01", "to": "Clostridiales_sp_DTU-UNIPD956", "value": 0.01, "weight": 1}, {"arrows": "to", "from": "Cloacibacillus_sp_DTU-UNIPD942", "title": "exchange probability (smetana value): 0.02", "to": "Ca. Dethiobacteraceae_sp_DTU-UNIPD931", "value": 0.02, "weight": 1}, {"arrows": "to", "from": "Cloacibacillus_sp_DTU-UNIPD942", "title": "exchange probability (smetana value): 0.02", "to": "Ca_Caldatribacterium_sp_DTU-UNIPD941", "value": 0.02, "weight": 1}, {"arrows": "to", "from": "Cloacibacillus_sp_DTU-UNIPD942", "title": "exchange probability (smetana value): 0.01", "to": "Azonexus_sp_DTU-UNIPD953", "value": 0.01, "weight": 1}, {"arrows": "to", "from": "Cloacibacillus_sp_DTU-UNIPD942", "title": "exchange probability (smetana value): 0.02", "to": "Pseudorhodobacter_sp_DTU-UNIPD967", "value": 0.02, "weight": 1}, {"arrows": "to", "from": "Acholeplasmatales_sp_DTU-UNIPD950", "title": "exchange probability (smetana value): 0.03", "to": "Ca. Dethiobacteraceae_sp_DTU-UNIPD931", "value": 0.03, "weight": 1}, {"arrows": "to", "from": "Acholeplasmatales_sp_DTU-UNIPD950", "title": "exchange probability (smetana value): 0.01", "to": "Ca_Caldatribacterium_sp_DTU-UNIPD941", "value": 0.01, "weight": 1}, {"arrows": "to", "from": "Acholeplasmatales_sp_DTU-UNIPD950", "title": "exchange probability (smetana value): 0.01", "to": "Cloacibacillus_sp_DTU-UNIPD942", "value": 0.01, "weight": 1}, {"arrows": "to", "from": "Acholeplasmatales_sp_DTU-UNIPD950", "title": "exchange probability (smetana value): 0.01", "to": "Bacteroidales_sp_DTU-UNIPD922", "value": 0.01, "weight": 1}, {"arrows": "to", "from": "Acholeplasmatales_sp_DTU-UNIPD950", "title": "exchange probability (smetana value): 0.3", "to": "Pseudorhodobacter_sp_DTU-UNIPD967", "value": 0.3, "weight": 1}, {"arrows": "to", "from": "Bacillus_sp_DTU-UNIPD918", "title": "exchange probability (smetana value): 0.03", "to": "Azonexus_sp_DTU-UNIPD953", "value": 0.03, "weight": 1}, {"arrows": "to", "from": "Bacillus_sp_DTU-UNIPD918", "title": "exchange probability (smetana value): 0.03", "to": "Pseudorhodobacter_sp_DTU-UNIPD967", "value": 0.03, "weight": 1}, {"arrows": "to", "from": "Clostridiales_sp_DTU-UNIPD956", "title": "exchange probability (smetana value): 0.1", "to": "Pseudorhodobacter_sp_DTU-UNIPD967", "value": 0.1, "weight": 1}, {"arrows": "to", "from": "Clostridiales_sp_DTU-UNIPD956", "title": "exchange probability (smetana value): 0.01", "to": "Bacillus_sp_DTU-UNIPD918", "value": 0.01, "weight": 1}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {"nodes": {"borderWidth": 2, "borderWidthSelected": 5}, "edges": {"color": {"inherit": true}, "dashes": true, "smooth": true}, "interaction": {"multiselect": true, "navigationButtons": true}, "physics": {"minVelocity": 0, "maxVelocity": 0.5, "barnesHut": {"gravitationalConstant": -85000, "centralGravity": 10, "springLength": 250, "springConstant": 0, "damping": 0, "avoidOverlap": 1}}};
+        
+        
+
+        
+
+        network = new vis.Network(container, data, options);
+	 
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>

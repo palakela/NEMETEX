@@ -1,0 +1,47 @@
+Species	abundance	taxonomy	gives to	average probability of donation	receives from	average probability to receive	behaviour
+Firmicutes_sp_DTU-UNIPD966	13.563104375449997	Firmicutes	0.0	0.0	10.0	1.0	mainly receiver
+Acetomicrobium_sp_DTU-UNIPD972	9.13378503561375	Synergistetes	11.0	0.31666666666666665	9.0	0.2907407407407408	mainly donor
+Firmicutes_sp_DTU-UNIPD921	1.8561938449762498	Firmicutes	0.0	0.0	1.0	0.01	mainly receiver
+Firmicutes_sp_DTU-UNIPD923	1.667382155350625	Firmicutes	0.0	0.0	6.0	0.18333333333333335	mainly receiver
+Ca_Thermacetogeniaceae_sp_DTU-UNIPD947	1.5810804061331252	Firmicutes	0.0	0.0	4.0	0.0125	mainly receiver
+Firmicutes_sp_DTU-UNIPD938	1.5291936854062498	Firmicutes	15.0	0.24666666666666665	7.0	0.3514285714285715	mainly receiver
+Bacillus_sp_DTU-UNIPD918	1.4722142713575002	Firmicutes	12.0	0.32166666666666666	4.0	0.14750000000000002	mainly donor
+Clostridia_sp_DTU-UNIPD951	1.4523923630272497	Firmicutes	0.0	0.0	3.0	0.38000000000000006	mainly receiver
+Bacteroidales_sp_DTU-UNIPD922	1.384704744192375	Bacteroidetes	0.0	0.0	1.0	0.04	mainly receiver
+Ruminococcaceae_sp_DTU-UNIPD949	0.864320981831375	Firmicutes	0.0	0.0	3.0	0.023333333333333334	mainly receiver
+Clostridia_sp_DTU-UNIPD948	0.8599189818447499	Firmicutes	0.0	0.0	5.0	0.064	mainly receiver
+Clostridiales_sp_DTU-UNIPD956	0.853263566140125	Firmicutes	0.0	0.0	7.0	0.19714285714285715	mainly receiver
+Synergistetes_sp_DTU-UNIPD919	0.7643460187483749	Synergistetes	10.0	0.40199999999999997	5.0	0.041999999999999996	mainly donor
+Cloacibacillus_sp_DTU-UNIPD942	0.6626799321140001	Synergistetes	24.0	0.1895833333333333	0.0	0.0	mainly donor
+Firmicutes_sp_DTU-UNIPD930	0.6371492361472498	Firmicutes	0.0	0.0	2.0	0.39666666666666667	mainly receiver
+Clostridia_sp_DTU-UNIPD961	0.606100889460875	Firmicutes	0.0	0.0	1.0	0.5	mainly receiver
+Ca_Caldatribacterium_sp_DTU-UNIPD941	0.58528711601025	Candidatus Atribacteria	0.0	0.0	4.0	0.034999999999999996	mainly receiver
+Ca. Dethiobacteraceae_sp_DTU-UNIPD931	0.5203537084561249	Firmicutes	0.0	0.0	4.0	0.042499999999999996	mainly receiver
+Rikenellaceae_sp_DTU-UNIPD929	0.5174963935558751	Bacteroidetes	9.0	0.5137037037037037	0.0	0.0	mainly donor
+Limnochordia_sp_DTU-UNIPD962	0.5157870408718751	Firmicutes	0.0	0.0	2.0	0.02	mainly receiver
+Tepidanaerobacter_sp_DTU-UNIPD928	0.499047164131	Firmicutes	15.0	0.2555555555555556	5.0	0.036000000000000004	mainly donor
+Azonexus_sp_DTU-UNIPD953	0.48903270626662504	Proteobacteria	0.0	0.0	9.0	0.12666666666666668	mainly receiver
+Methanoculleus_thermophilus_DTU-UNIPD927	0.4667485008489001	Euryarchaeota	0.0	0.0	4.0	0.165	mainly receiver
+Clostridia_sp_DTU-UNIPD970	0.4048198369388751	Firmicutes	0.0	0.0	3.0	0.2611111111111111	mainly receiver
+Fermentimonas_massiliensis_DTU-UNIPD960	0.39329527630208744	Bacteroidetes	10.0	0.787	2.0	0.025	mainly donor
+Clostridia_sp_DTU-UNIPD964	0.35591389045287497	Firmicutes	0.0	0.0	1.0	0.04	mainly receiver
+Bacillus_sp_DTU-UNIPD958	0.3547254221594749	Firmicutes	21.0	0.1838095238095238	1.0	1.0	mainly receiver
+Aminobacterium_colombiense_DTU-UNIPD933	0.33312027632725	Synergistetes	11.0	0.6793939393939393	6.0	0.02	mainly donor
+Sphaerochaeta_sp_DTU-UNIPD963	0.32652143650575005	Spirochaetes	0.0	0.0	2.0	0.03	mainly receiver
+Syntrophothermus_sp_DTU-UNIPD934	0.30336820980812507	Firmicutes	0.0	0.0	7.0	0.40714285714285714	mainly receiver
+Firmicutes_sp_DTU-UNIPD945	0.302563552390625	Firmicutes	0.0	0.0	12.0	1.0	mainly receiver
+Firmicutes_sp_DTU-UNIPD954	0.3005140403915	Firmicutes	21.0	0.2652380952380953	2.0	0.14	mainly donor
+Acholeplasmatales_sp_DTU-UNIPD950	0.2885548547173625	Tenericutes	0.0	0.0	12.0	1.0	mainly receiver
+Bacteroidales_sp_DTU-UNIPD936	0.2751065156282	Bacteroidetes	0.0	0.0	9.0	0.04555555555555555	mainly receiver
+Petrimonas_sp_DTU-UNIPD925	0.27195226747641255	Bacteroidetes	0.0	0.0	4.0	0.1275	mainly receiver
+Clostridiales_sp_DTU-UNIPD971	0.237272022405375	Firmicutes	0.0	0.0	1.0	0.07	mainly receiver
+Aeromicrobium_sp_DTU-UNIPD973	0.2278567861825125	Actinobacteria	0.0	0.0	7.0	0.21	mainly receiver
+Pseudorhodobacter_sp_DTU-UNIPD967	0.22107669847825	Proteobacteria	0.0	0.0	5.0	0.25	mainly receiver
+Syntrophomonas_sp_DTU-UNIPD935	0.21469693578112498	Firmicutes	0.0	0.0	3.0	0.29444444444444445	mainly receiver
+Ruminococcaceae_sp_DTU-UNIPD968	0.2075722028065	Firmicutes	19.0	0.2063157894736842	2.0	0.41666666666666663	mainly receiver
+Acidaminococcales_sp_DTU-UNIPD952	0.1948202813614625	Firmicutes	16.0	0.29812500000000003	5.0	0.40800000000000003	mainly receiver
+Clostridia_sp_DTU-UNIPD946	0.18435101750500002	Firmicutes	0.0	0.0	2.0	0.19666666666666666	mainly receiver
+Sphaerochaeta_sp_DTU-UNIPD955	0.18228247983845003	Spirochaetes	0.0	0.0	1.0	0.01	mainly receiver
+Ilumatobacter_sp_DTU-UNIPD920	0.170423130563025	Actinobacteria	0.0	0.0	6.0	0.055	mainly receiver
+Actinobacteria_sp_DTU-UNIPD965	0.16372495835116252	Actinobacteria	0.0	0.0	2.0	0.185	mainly receiver
+bin_8_metaspades	0.0	Unknown	0.0	0.0	3.0	0.05666666666666667	mainly receiver

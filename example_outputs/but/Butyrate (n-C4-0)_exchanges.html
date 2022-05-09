@@ -1,0 +1,80 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+<center>
+<h1>Exchanges of Butyrate (n-C4-0)</h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 100%;
+            height: 100%;
+            background-color: #ffffff;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"group": "Proteobacteria", "id": "Burkholderiales_sp_DTU-UNIPD944", "label": "Burkholderiales_sp_DTU-UNIPD944", "shape": "dot", "size": 18, "title": "Gives to:\u003cbr\u003eAminobacterium_colombiense_DTU-UNIPD933\u003cbr\u003e\u003cbr\u003eAbundance: 0.18%\u003cbr\u003e\u003cbr\u003ePhylum: Proteobacteria"}, {"group": "Synergistetes", "id": "Aminobacterium_colombiense_DTU-UNIPD933", "label": "Aminobacterium_colombiense_DTU-UNIPD933", "shape": "dot", "size": 33, "title": "Gives to:\u003cbr\u003e\u003cbr\u003e\u003cbr\u003eAbundance: 0.33%\u003cbr\u003e\u003cbr\u003ePhylum: Synergistetes"}, {"group": "Firmicutes", "id": "Ca. Dethiobacteraceae_sp_DTU-UNIPD931", "label": "Ca. Dethiobacteraceae_sp_DTU-UNIPD931", "shape": "dot", "size": 52, "title": "Gives to:\u003cbr\u003eClostridia_sp_DTU-UNIPD924\u003cbr\u003eClostridiales_sp_DTU-UNIPD956\u003cbr\u003e\u003cbr\u003eAbundance: 0.52%\u003cbr\u003e\u003cbr\u003ePhylum: Firmicutes"}, {"group": "Firmicutes", "id": "Clostridia_sp_DTU-UNIPD924", "label": "Clostridia_sp_DTU-UNIPD924", "shape": "dot", "size": 26, "title": "Gives to:\u003cbr\u003e\u003cbr\u003e\u003cbr\u003eAbundance: 0.26%\u003cbr\u003e\u003cbr\u003ePhylum: Firmicutes"}, {"group": "Firmicutes", "id": "Clostridiales_sp_DTU-UNIPD956", "label": "Clostridiales_sp_DTU-UNIPD956", "shape": "dot", "size": 85, "title": "Gives to:\u003cbr\u003ePetrimonas_sp_DTU-UNIPD925\u003cbr\u003e\u003cbr\u003eAbundance: 0.85%\u003cbr\u003e\u003cbr\u003ePhylum: Firmicutes"}, {"group": "Bacteroidetes", "id": "Petrimonas_sp_DTU-UNIPD925", "label": "Petrimonas_sp_DTU-UNIPD925", "shape": "dot", "size": 27, "title": "Gives to:\u003cbr\u003e\u003cbr\u003e\u003cbr\u003eAbundance: 0.27%\u003cbr\u003e\u003cbr\u003ePhylum: Bacteroidetes"}]);
+        edges = new vis.DataSet([{"arrows": "to", "from": "Burkholderiales_sp_DTU-UNIPD944", "title": "exchange probability (smetana value): 1.0", "to": "Aminobacterium_colombiense_DTU-UNIPD933", "value": 1.0, "weight": 1}, {"arrows": "to", "from": "Ca. Dethiobacteraceae_sp_DTU-UNIPD931", "title": "exchange probability (smetana value): 0.01", "to": "Clostridia_sp_DTU-UNIPD924", "value": 0.01, "weight": 1}, {"arrows": "to", "from": "Ca. Dethiobacteraceae_sp_DTU-UNIPD931", "title": "exchange probability (smetana value): 0.04", "to": "Clostridiales_sp_DTU-UNIPD956", "value": 0.04, "weight": 1}, {"arrows": "to", "from": "Clostridiales_sp_DTU-UNIPD956", "title": "exchange probability (smetana value): 1.0", "to": "Petrimonas_sp_DTU-UNIPD925", "value": 1.0, "weight": 1}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {"nodes": {"borderWidth": 2, "borderWidthSelected": 5}, "edges": {"color": {"inherit": true}, "dashes": true, "smooth": true}, "interaction": {"multiselect": true, "navigationButtons": true}, "physics": {"minVelocity": 0, "maxVelocity": 0.5, "barnesHut": {"gravitationalConstant": -85000, "centralGravity": 10, "springLength": 250, "springConstant": 0, "damping": 0, "avoidOverlap": 1}}};
+        
+        
+
+        
+
+        network = new vis.Network(container, data, options);
+	 
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>

@@ -24,6 +24,7 @@ Table of contents:
 3) INPUT FILES
 4) OUTPUT FILES
 5) TIPS
+6) TOY DATA USAGE
 
 ______________________________________________________________________________________
 ## 1) INTRODUCTION
@@ -166,7 +167,7 @@ path = os.getcwd()
 id_conversion_table.to_csv(path+'/gapseq_compounds_conversion_table.txt', sep = '\t')
 ```
 
-# 6) Toy Data usage
+# 6) TOY DATA USAGE
 
 To get some hints on how NEMETEX works, we provided you with some *toy data* that you can use. You can find them inside [ToyData](ToyData) folder inside the downloaded directory.
 

@@ -12,7 +12,7 @@ import argparse
 # Parse command line arguments
 parser = argparse.ArgumentParser(description="NEMETEX v.1.0 setting parameters",
                                  formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-parser.add_argument("-m", "--model", type=str, default="CarveMe", help="model used to generate input files")
+parser.add_argument("-m", "--model", type=str, default="CarveMe", help="model used to generate input files. Either CarveMe or gapseq are accepted")
 parser.add_argument("-s", "--smetana", type=str, required=True, help="file path for smetana output file")
 parser.add_argument("-a", "--coverage", type=str, help="file path for MAGs abundances")
 parser.add_argument("-t", "--taxonomy", type=str, help="file path for MAGs taxonomy")

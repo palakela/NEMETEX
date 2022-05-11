@@ -217,8 +217,8 @@ def network(compound):
         print(f'\nATTENTION: There are not {compound} exchanges in the community, check the name inside the database ('+link3+') or try another compound. Remember, compound names are Case Sensitive.\n')
         return
 
-    # create a list of all species involved in the exchange (set is a datastructure which keep only one occurrency for each duplicate)
-    species = set(subset['receiver'].append(subset['donor']))
+    # create a list of all species involved in the exchange (set is a datastructure which keeps only one occurrency for each duplicate)
+    species = set(pd.concat([subset['receiver'], subset['donor']], axis=0, join='outer'))
 
     # create a dictionary where key is the species IDs and value is a dictionary containing average abundance and phylum
     species_attributes = {}

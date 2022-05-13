@@ -14,11 +14,15 @@ authors:
   - name: Elisabetta Offer
     affiliation: 1
   - name: Guido Zampieri
+    orcid: 0000-0002-4518-5913
     affiliation: 1  
   - name: Arianna Basile^[Co-corresponding author]
+    orcid: 0000-0003-2461-5221
     affiliation: 2
   - name: Stefano Campanaro^[Co-corresponding author]
+    orcid: 0000-0002-9431-1648
     affiliation: 1,3
+    
 affiliations:
  - name: Department of Biology, University of Padova, Via Ugo Bassi 58/b 35131 Padova, Italy
    index: 1
